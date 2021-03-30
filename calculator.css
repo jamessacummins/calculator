@@ -1,0 +1,106 @@
+/*
+* === Basic Styling ===
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #2c3849bb;
+}
+
+/*
+* === Calc Body ===
+*/
+.calculator-body{
+    margin:30px auto;
+    background:#333;
+    color:#fafafa;
+    display:flex;
+    align-items: flex-start;
+    width:fit-content;
+    justify-content: stretch;
+}
+.category{
+    display:none;
+}
+/*
+* === Input ===
+*/
+.calc-h3{
+    padding:20px;
+    text-align:center;
+    font-size:40px;
+    font-weight:300;
+}
+.input-box-container{
+    width:500px;
+    padding:20px;
+    display:flex;
+    justify-content: flex-end;
+    margin-left:auto;
+}
+.input-box-container label{
+    margin-right:10px;
+}
+.input-box-container select, .input-box-container input{
+    width:200px;
+}
+.input-box-container input{
+    text-align: right;
+    padding: 5px;
+}
+
+/*
+* === Results ===
+*/
+
+
+#results{
+    background:grey;
+    padding:20px;
+    margin:15px;
+}
+
+.result{
+    display:flex;
+    background:white;
+    color:#333;
+    padding:10px;
+    margin-top:5px;
+    cursor:pointer;
+    overflow-wrap: normal;
+}
+.selected-result{
+    background:#2c3849;
+    color:white;
+}
+.result:first-child{
+    margin:none;
+}
+
+/*
+* === Calculations ===
+*/
+.calculations-container{
+    width: 400px;
+    padding:0 20px;
+    display:flex;
+    flex-direction: column;
+}
+#calculations-default{
+    background:grey;
+    padding:20px;
+}
+
+#calculations{
+    background:grey;
+    padding:20px;
+}
+

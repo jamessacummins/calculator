@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type='text/css' rel='stylesheet' href='calculator.css'>
+        
+    </head>
+    <body>
+        <div class='calculator-body'>
+
+            <div class='user-input-container'>
+                <h3 class='calc-h3'>Your Input</h3>
+                <div class='input-box-container'>
+                    <label class='input-label'>
+                        Search :
+                    </label>
+                    <input type="text" id="search-input" placeholder="Enter Name Here">
+                    </input>
+                </div>
+                <div class='input-box-container'>
+                    <label class='input-label'>
+                        Category :
+                    </label>
+                    <select id="l2-input">
+                        <option class="default-option"> 
+                            Please Select 
+                        </option>
+                    </select>
+                </div>
+                <div class='input-box-container'>
+                    <label class='input-label'>
+                        Days :
+                    </label>
+                    <input type="text" id="days-input" placeholder="30">
+                    </input>
+                </div>
+                <div id="results">
+                    
+                </div>
+            </div>
+
+            <div class='calculations-container'>
+                <h3 class='calc-h3'> Your Results</h3>
+                <div id="calculations-default">
+                    Select an item on the right, as well as how many days you would hire to see whether hiring or buying is more worthwhile.
+                </div>
+                <div id="calculations">
+                </div>
+            </div>
+            
+        </div> 
+        
+
+        <script src='data.js'></script>
+        <script src='calculator.js'></script>
+        
+    </body>
+</html>
